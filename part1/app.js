@@ -27,5 +27,3 @@ if(num != null && num !=""){
 else{
     console.log("No input received.")
 }
-
-// PART 2: DECK OF CARDS
