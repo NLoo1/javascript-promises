@@ -10,7 +10,10 @@ async function init(){
 
     if(Number(num) != NaN || Number(num) != null){
         let p1, p2, p3, p4, p1Promise,p2Promise,p3Promise,p4Promise
-        p1Promise = p2Promise= p3Promise = p4Promise = axios.get(`http://numbersapi.com/${num}`)
+        p1Promise = axios.get(`http://numbersapi.com/${num}`)
+        p2Promise= axios.get(`http://numbersapi.com/${num}`)
+        p3Promise = axios.get(`http://numbersapi.com/${num}`)
+        p4Promise = axios.get(`http://numbersapi.com/${num}`)
 
         p1 = await p1Promise
         p2 = await p2Promise
